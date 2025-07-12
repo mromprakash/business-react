@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpg';
 
 const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
           <img src={logo} alt="TechCorp Logo" width="40" height="40" className="me-2" />
-          <span className="fw-bold">TechCorp Solutions</span>
+          <span className="fw-bold">Business Solutions</span>
         </Link>
         
         <button
